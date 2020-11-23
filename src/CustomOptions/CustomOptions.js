@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import slugify from 'slugify';
-import Customizer from '../Customizer/Customizer'
 
 class CustomOptions extends Component {
     render() {
