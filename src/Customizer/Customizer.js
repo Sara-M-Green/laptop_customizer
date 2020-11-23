@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import slugify from 'slugify';
 import CustomOptions from '../CustomOptions/CustomOptions';
 
 class Customizer extends Component {
     render() {
-        
-
     return (
         <form className="main__form">
             <h2>Customize your laptop</h2>
@@ -17,10 +14,7 @@ class Customizer extends Component {
                 />
         </form>
         )
-
-    }
-
-    
+    }  
 }
 
 export default Customizer;
