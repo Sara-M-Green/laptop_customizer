@@ -48,7 +48,6 @@ class App extends Component {
         <main>
           <Customizer 
             USCurrencyFormat={USCurrencyFormat}
-            features={this.props.features}
             handleUpdate={(feature, newValue) => this.updateFeature(feature, newValue)}
             selected={this.state.selected}/>
             
